@@ -1,0 +1,151 @@
+<div id="topBar" class="col-xs-12">
+  <div style="color:white;margin-left:250px;"><div class="col-xs-1" style="text-align:right;margin-top:10px;"><img src="favicon.ico" style="width:50px;height:50px;"></div><div class="col-xs-5" ><h2>MyFacebook</h2></div></div>
+</div>
+<div id="body" class="col-xs-12" style="margin-top:90px">
+
+  <div id="firstCol" class="col-xs-2">
+    <div class="col-xs-7"></div>
+    <div class="col-xs-5">
+      <div class="links"><a href="https://facebook.com">Facebook</a></div>
+      <div class="links"><a href="https://facebook.com">Twitter</a></div>
+      <div class="links"><a href="https://facebook.com">LinkedIn</a></div>
+      <div class="links"><a href="https://facebook.com">Google</a></div>
+      <div class="links"><a href="https://facebook.com">Amazon</a></div>
+      <div class="links"><a href="https://facebook.com">Facebook</a></div>
+      <div class="links"><a href="https://facebook.com">Twitter</a></div>
+      <div class="links"><a href="https://facebook.com">LinkedIn</a></div>
+      <div class="links"><a href="https://facebook.com">Google</a></div>
+      <div class="links"><a href="https://facebook.com">Amazon</a></div>
+      <div class="links"><a href="https://facebook.com">Facebook</a></div>
+      <div class="links"><a href="https://facebook.com">Twitter</a></div>
+      <div class="links"><a href="https://facebook.com">LinkedIn</a></div>
+      <div class="links"><a href="https://facebook.com">Google</a></div>
+      <div class="links"><a href="https://facebook.com">Amazon</a></div>
+      <div class="links"><a href="https://facebook.com">Facebook</a></div>
+      <div class="links"><a href="https://facebook.com">Twitter</a></div>
+      <div class="links"><a href="https://facebook.com">LinkedIn</a></div>
+      <div class="links"><a href="https://facebook.com">Google</a></div>
+      <div class="links"><a href="https://facebook.com">Amazon</a></div>
+      <div class="links"><a href="https://facebook.com">Facebook</a></div>
+      <div class="links"><a href="https://facebook.com">Twitter</a></div>
+      <div class="links"><a href="https://facebook.com">LinkedIn</a></div>
+      <div class="links"><a href="https://facebook.com">Google</a></div>
+      <div class="links"><a href="https://facebook.com">Amazon</a></div>
+    </div>
+  </div>
+
+  <div id="secondCol" class="col-xs-5">
+    <div ng-repeat="feed in mainFeeds">
+      <div class="col-xs-12 secondColDashboard">
+        <div>
+          <div class="col-xs-3"><img style="height:100px;width:100px;border-radius:50%"
+                                     src={{feed.profile_pic}}>
+          </div>
+          <div class="col-xs-9"><b>{{feed.name}}</b></div>
+        </div>
+        <li>
+          {{feed.description}}
+        </li>
+        <div style="margin-top:40px;"><img style="max-height:500px;width: 100%" src={{feed.post_pic}}>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="thirdCol" class="col-xs-2">
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>Amazon</b></div>
+
+      <div><img style="width:100%;"
+                src="http://cdn06.branchez-vous.com/wp-content/uploads/2013/10/amazon-800x410.png"></div>
+      <div class="statement">
+        Amazon worlds biggest E.Commerce company.
+      </div>
+    </div>
+
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>Snapdeal</b></div>
+
+      <div><img style="width:100%;"
+                src="https://d28dwf34zswvrl.cloudfront.net/wp-content/uploads/2016/09/snapdeal-new-logo.png"></div>
+      <div class="statement">
+        Snapdeal is the India's Largest E. Commerce company.
+      </div>
+    </div>
+
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>FlipKart</b></div>
+
+      <div><img style="width:100%;"
+                src="http://papakart.com/wp-content/uploads/2016/08/flipkart-logo-678x350.jpg"></div>
+      <div class="statement">
+        Flipkart is India's biggest E. Commerce company.
+      </div>
+    </div>
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>Amazon</b></div>
+
+      <div><img style="width:100%;"
+                src="http://cdn06.branchez-vous.com/wp-content/uploads/2013/10/amazon-800x410.png"></div>
+      <div class="statement">
+        Amazon worlds biggest E.Commerce company.
+      </div>
+    </div>
+
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>Snapdeal</b></div>
+
+      <div><img style="width:100%;"
+                src="https://d28dwf34zswvrl.cloudfront.net/wp-content/uploads/2016/09/snapdeal-new-logo.png"></div>
+      <div class="statement">
+        Snapdeal is the India's Largest E. Commerce company.
+      </div>
+    </div>
+
+    <div class="col-xs-12 thirdColDashboard">
+
+      <div class="col-xs-9" style="margin-bottom:10px;"><b>FlipKart</b></div>
+
+      <div><img style="width:100%;"
+                src="http://papakart.com/wp-content/uploads/2016/08/flipkart-logo-678x350.jpg"></div>
+      <div class="statement">
+        Flipkart is India's biggest E. Commerce company.
+      </div>
+    </div>
+    <div class="col-xs-12 thirdColDashboard" id="developerDetail">
+      Developed By <b>Avishek Prasad</b></br>
+      vibek4blueacid@gmail.com</br>
+      contact no. 8759021722
+    </div>
+  </div>
+
+
+  <div id="fourthCol" class="col-xs-2">
+    <div id="fourthColUp">
+      <div ng-repeat="feed in sideFeeds">
+        <div class="fourthColUpDashboard col-xs-12">
+          <div class="col-xs-2" style="height:30px;width:30px;;padding:0px;"><img style="width:100%;height:100%"
+                                                                      src={{feed.profile_pic}}></div>
+          <div class="col-xs-10">{{feed.description}}</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="fourthColDown">
+      <div ng-repeat="contact in contacts">
+        <div class="fourthColDownDashboard col-xs-12">
+          <div class="col-xs-4"><img style="height:40px;width:40px;border-radius:50%"
+                                     src={{contact.profile_pic}}>
+          </div>
+          <div class="col-xs-8 statement"><b>{{contact.name}}</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

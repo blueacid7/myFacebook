@@ -1,0 +1,72 @@
+#topBar{
+    background: black;
+    height:70px;
+    position: fixed;
+    z-index:1000;
+}
+#secondCol{
+    padding:0px;
+    margin-left: 20%;
+}
+#firstCol{
+    padding:0px;
+    position: fixed;
+}
+.secondColDashboard{
+    padding:20px;
+    box-shadow : 5px 5px 5px grey;
+    background-color: lightblue;
+    margin-bottom:20px;
+    overflow: hidden;
+}
+.links>a{
+    padding:8px;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+}
+
+#thirdCol{
+    padding:0px;
+    left: 63%;
+    overflow: hidden;
+    margin-left:30px;
+}
+.thirdColDashboard{
+    padding:20px;
+    box-shadow : 5px 5px 5px grey;
+    background-color: lightblue;
+    margin-bottom:20px;
+}
+.statement{
+    padding:10px;
+}
+#fourthCol{
+    position: fixed;
+    right:0px;
+    height: 94%;
+    top: 70px
+}
+#fourthColUp{
+    background-color: lightblue;
+    height:50%;
+}
+#fourthColDown{
+    background-color: lightblue;
+    height:50%;
+    overflow: auto;
+}
+.fourthColDownDashboard{
+    padding: 5px;
+}
+.fourthColUpDashboard{
+    height:40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#fourthColUp{
+    overflow: auto;
+    border-bottom:4px double darkgrey;
+}
